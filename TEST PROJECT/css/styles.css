@@ -1,0 +1,94 @@
+html {
+  box-sizing:border-box;
+  font-size: 1rem;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+header{
+  text-align: right;
+}
+nav a{
+  color: #202020;
+  text-decoration: none;
+  display: inline-block;
+  margin: 30px 10px;
+}
+nav a:hover {
+  color: #404040;
+}
+body {
+  background: #FFFFE9;
+  margin: 0;
+  font-size: 1.125rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+a {
+  color: #FFFFE9;
+}
+a:hover {
+  color: #FFFFE9;
+}
+
+.empire {
+  background: url(../party.jpg) no-repeat fixed;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.empire p{
+  color:#ba9007;
+  background-color: #303030;
+  display: inline-block;
+  margin: 0 30% 30px 30%;
+}
+
+h1 {
+  color: #FFFFE9;
+  background: #ba9007;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.slices {
+  color:#ba9007;
+  text-align:center;
+  list-style-position: inside;
+}
+
+li{
+  list-style-type: none;
+  position: relative;
+  right: 22px;
+}
+
+.open {
+  background: url(../pizza.jpg) no-repeat fixed;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.open p {
+  color:#ba9007;
+  background-color: #303030;
+  display: inline-block;
+  margin: 0 30% 30px 30%;
+}
+
+.open h2 {
+  color: #FFFFE9;
+  background: #ba9007;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  background: #202020;
+  color: #FFFFE9;
+  text-align: center;
+}
